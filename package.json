@@ -1,0 +1,25 @@
+{
+  "name": "csv-parser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottymccormick/csv-parser.git"
+  },
+  "author": "Scotty McCormick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scottymccormick/csv-parser/issues"
+  },
+  "homepage": "https://github.com/scottymccormick/csv-parser#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "multer": "^1.4.1"
+  }
+}
