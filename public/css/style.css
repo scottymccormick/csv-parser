@@ -5,6 +5,18 @@
 }
 
 body {
+  height: 100vh;
+  text-align: center;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+main {
   height: 100%;
+}
+
+input {
   text-align: center;
 }
