@@ -1,6 +1,8 @@
-const express = require('express');
-const app = express();
-const PORT = process.env.PORT || 4000;
+const express = require('express')
+const app = express()
+const PORT = process.env.PORT || 4000
+
+app.use(express.static('public'))
 
 app.set('view engine', 'ejs')
 
@@ -9,5 +11,5 @@ app.get('/', (req, res) => {
 })
 
 app.listen(PORT, () => {
-  console.log(`Listening on port ${PORT}`);
-});
+  console.log(`Listening on port ${PORT}`)
+})
