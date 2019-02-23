@@ -13,7 +13,10 @@
   </header>
   <main>
     <h3>Choose a CSV file to parse</h3>
-    <input type="file" name="input-file">
+    <form action="/upload" method="POST">
+      <input type="file" name="input-file"><br>
+      <input type="submit" value="Submit">
+    </form>
   </main>
 </body>
 </html>
